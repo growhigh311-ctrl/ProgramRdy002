@@ -74,6 +74,7 @@ export default function RootLayout({
   return (
     <html lang="en-US">
       <head>
+        <meta name="google-site-verification" content="KF29yCwyvubB2-iC827LlL43RaFtoG1d8ZCLDOW2tKQ" />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
           rel="stylesheet"
