@@ -1,6 +1,6 @@
-export const CONFIG = {
+﻿export const CONFIG = {
   brandName: "Reddy Anna",
-  domainName: "reddypurplebook.in",
+  domainName: "reddyreal.live",
   whatsappUrl: "https://wa.me/916026703858",
   whatsappSupportUrl: "https://wa.me/916026703858",
   
@@ -156,11 +156,11 @@ export const CONFIG = {
     },
     {
       question: "How do I create a Reddy Anna ID?",
-      answer: "Visit reddypurplebook.in, click the WhatsApp button, and contact our official agent. Share your preferred username and password. Your ID is created and delivered in under 60 seconds."
+      answer: "Visit reddyreal.live, click the WhatsApp button, and contact our official agent. Share your preferred username and password. Your ID is created and delivered in under 60 seconds."
     },
     {
       question: "Is Reddy Anna safe and legitimate?",
-      answer: "Yes. Reddy Anna has operated safely since 2010, serving millions of verified users across India. All transactions are encrypted, all payments are processed through secure Indian banking channels, and all payouts are guaranteed. reddypurplebook.in is the only official Reddy Anna domain — always verify you are on the right site."
+      answer: "Yes. Reddy Anna has operated safely since 2010, serving millions of verified users across India. All transactions are encrypted, all payments are processed through secure Indian banking channels, and all payouts are guaranteed. reddyreal.live is the only official Reddy Anna domain — always verify you are on the right site."
     },
     {
       question: "What payment methods does Reddy Anna accept?",
@@ -172,11 +172,11 @@ export const CONFIG = {
     },
     {
       question: "Does Reddy Anna offer casino games?",
-      answer: "Yes. reddypurplebook.in offers a comprehensive live casino section featuring Teen Patti, Andar Bahar, Roulette, Blackjack, Baccarat, Poker, Dragon Tiger, and hundreds of slots. All games run 24/7 with live dealers and certified fair-play mechanisms."
+      answer: "Yes. reddyreal.live offers a comprehensive live casino section featuring Teen Patti, Andar Bahar, Roulette, Blackjack, Baccarat, Poker, Dragon Tiger, and hundreds of slots. All games run 24/7 with live dealers and certified fair-play mechanisms."
     },
     {
       question: "How can I contact Reddy Anna support?",
-      answer: "Our support team is available 24/7 via WhatsApp and Telegram. Visit reddypurplebook.in and click the WhatsApp icon for instant connection to our support team. Average response time is under 2 minutes, even during live matches."
+      answer: "Our support team is available 24/7 via WhatsApp and Telegram. Visit reddyreal.live and click the WhatsApp icon for instant connection to our support team. Average response time is under 2 minutes, even during live matches."
     },
     {
       question: "What is a Reddy Anna Demo ID?",

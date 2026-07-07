@@ -1,7 +1,23 @@
-import React from "react";
+﻿import React from "react";
 import { CONFIG } from "@/utils/config";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Reddy Anna Demo ID - Free Practice Betting Account",
+  description: "Get a free Reddy Anna Demo ID instantly via WhatsApp. Practice IPL betting and casino games with virtual coins. No deposit needed.",
+  alternates: { canonical: "https://reddyreal.live/reddy-anna-id/demo-id" },
+  openGraph: {
+    title: "Reddy Anna Demo ID - Free Practice Betting Account",
+    description: "Get a free Reddy Anna Demo ID instantly via WhatsApp. Practice IPL betting and casino games with virtual coins. No deposit needed.",
+    url: "https://reddyreal.live/reddy-anna-id/demo-id",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "Reddy Anna Demo ID - Free Practice Betting Account", description: "Get a free Reddy Anna Demo ID instantly via WhatsApp. Practice IPL betting and casino games with virtual coins. No deposit needed." },
+};
 
 export default function DemoIdPage() {
   return (

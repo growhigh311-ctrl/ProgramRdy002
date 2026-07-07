@@ -1,5 +1,21 @@
-import React from "react";
+﻿import React from "react";
 import { Sidebar } from "@/components/Sidebar";
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy - Reddy Anna Book",
+  description: "Read Reddy Anna Book Privacy Policy. Learn how we protect your data on our platform.",
+  alternates: { canonical: "https://reddyreal.live/privacy-policy" },
+  openGraph: {
+    title: "Privacy Policy - Reddy Anna Book",
+    description: "Read Reddy Anna Book Privacy Policy. Learn how we protect your data on our platform.",
+    url: "https://reddyreal.live/privacy-policy",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "Privacy Policy - Reddy Anna Book", description: "Read Reddy Anna Book Privacy Policy. Learn how we protect your data on our platform." },
+};
 
 export default function PrivacyPolicyPage() {
   return (

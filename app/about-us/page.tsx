@@ -1,6 +1,22 @@
+import type { Metadata } from "next";
 import React from "react";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "About Reddy Anna | India's #1 Cricket Betting ID Provider Since 2010",
+  description:
+    "Learn about Reddy Anna Book — India's most trusted online betting platform founded in 2010. 200+ branches, instant IDs, UPI payments & 24/7 support.",
+  alternates: { canonical: "https://reddyreal.live/about-us" },
+  openGraph: {
+    title: "About Reddy Anna Book | Trusted Betting Platform Since 2010",
+    description: "India's most trusted online betting platform. 200+ branches, instant IDs, UPI payments & 24/7 support.",
+    url: "https://reddyreal.live/about-us",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "About Reddy Anna Book", description: "India's most trusted online betting platform since 2010." },
+};
 
 export default function AboutUsPage() {
   return (

@@ -1,7 +1,23 @@
-import React from "react";
+﻿import React from "react";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { CONFIG } from "@/utils/config";
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Reddy Anna Book - 24/7 WhatsApp Support",
+  description: "Contact Reddy Anna Book 24/7 via WhatsApp for instant ID creation, deposits, withdrawals and support.",
+  alternates: { canonical: "https://reddyreal.live/contact-us" },
+  openGraph: {
+    title: "Contact Reddy Anna Book - 24/7 WhatsApp Support",
+    description: "Contact Reddy Anna Book 24/7 via WhatsApp for instant ID creation, deposits, withdrawals and support.",
+    url: "https://reddyreal.live/contact-us",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "Contact Reddy Anna Book - 24/7 WhatsApp Support", description: "Contact Reddy Anna Book 24/7 via WhatsApp for instant ID creation, deposits, withdrawals and support." },
+};
 
 export default function ContactUsPage() {
   return (
@@ -32,7 +48,7 @@ export default function ContactUsPage() {
               ☎️ Official Contact Channels
             </h2>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed font-semibold">
-              Warning: Only trust IDs and links obtained from our official domain <strong>reddypurplebook.in</strong>. Avoid copycat domains. Contact us via:
+              Warning: Only trust IDs and links obtained from our official domain <strong>reddyreal.live</strong>. Avoid copycat domains. Contact us via:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-[#05080f] p-5 rounded-sm border border-[#9C27B0]/5 shadow-md flex flex-col justify-between">

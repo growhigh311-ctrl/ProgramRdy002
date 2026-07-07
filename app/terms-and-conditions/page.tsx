@@ -1,5 +1,21 @@
-import React from "react";
+﻿import React from "react";
 import { Sidebar } from "@/components/Sidebar";
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms and Conditions - Reddy Anna Book",
+  description: "Read the Terms and Conditions for Reddy Anna Book. Rules and regulations for using our online betting platform.",
+  alternates: { canonical: "https://reddyreal.live/terms-and-conditions" },
+  openGraph: {
+    title: "Terms and Conditions - Reddy Anna Book",
+    description: "Read the Terms and Conditions for Reddy Anna Book. Rules and regulations for using our online betting platform.",
+    url: "https://reddyreal.live/terms-and-conditions",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "Terms and Conditions - Reddy Anna Book", description: "Read the Terms and Conditions for Reddy Anna Book. Rules and regulations for using our online betting platform." },
+};
 
 export default function TermsAndConditionsPage() {
   return (

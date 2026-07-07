@@ -1,7 +1,23 @@
-import React from "react";
+﻿import React from "react";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Cricket Betting Online - Live Cricket Odds and Markets - Reddy Anna",
+  description: "Bet on cricket live at Reddy Anna Book. IPL, T20, ODI and Test matches with ball-by-ball live odds, session markets and instant withdrawals.",
+  alternates: { canonical: "https://reddyreal.live/reddy-anna-sports/cricket-betting" },
+  openGraph: {
+    title: "Cricket Betting Online - Live Cricket Odds and Markets - Reddy Anna",
+    description: "Bet on cricket live at Reddy Anna Book. IPL, T20, ODI and Test matches with ball-by-ball live odds, session markets and instant withdrawals.",
+    url: "https://reddyreal.live/reddy-anna-sports/cricket-betting",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "Cricket Betting Online - Live Cricket Odds and Markets - Reddy Anna", description: "Bet on cricket live at Reddy Anna Book. IPL, T20, ODI and Test matches with ball-by-ball live odds, session markets and instant withdrawals." },
+};
 
 export default function CricketBettingPage() {
   return (

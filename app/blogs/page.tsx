@@ -1,7 +1,22 @@
+import type { Metadata } from "next";
 import React from "react";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { CONFIG } from "@/utils/config";
+
+export const metadata: Metadata = {
+  title: "Reddy Anna Blogs | Cricket Betting Tips & Sports Guides",
+  description: "Read expert cricket betting strategies, IPL guides, match predictions on the official Reddy Anna Blog.",
+  alternates: { canonical: "https://reddyreal.live/blogs" },
+  openGraph: {
+    title: "Reddy Anna Blogs | Cricket Betting Tips & Sports Guides",
+    description: "Expert cricket betting strategies, IPL match guides, and sports predictions on the Reddy Anna blog.",
+    url: "https://reddyreal.live/blogs",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "Reddy Anna Blogs | Cricket Betting Tips", description: "Expert cricket betting strategies on the Reddy Anna blog." },
+};
 
 export default function BlogsPage() {
   return (

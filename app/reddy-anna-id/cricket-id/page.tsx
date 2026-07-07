@@ -1,6 +1,22 @@
-import React from "react";
+﻿import React from "react";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Reddy Anna Cricket ID - Official Cricket Betting ID Provider India",
+  description: "Get your official Reddy Anna Cricket ID instantly. Access IPL, T20 World Cup and all major cricket tournaments with ball-by-ball live odds.",
+  alternates: { canonical: "https://reddyreal.live/reddy-anna-id/cricket-id" },
+  openGraph: {
+    title: "Reddy Anna Cricket ID - Official Cricket Betting ID Provider India",
+    description: "Get your official Reddy Anna Cricket ID instantly. Access IPL, T20 World Cup and all major cricket tournaments with ball-by-ball live odds.",
+    url: "https://reddyreal.live/reddy-anna-id/cricket-id",
+    siteName: "Reddy Anna Book",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image", title: "Reddy Anna Cricket ID - Official Cricket Betting ID Provider India", description: "Get your official Reddy Anna Cricket ID instantly. Access IPL, T20 World Cup and all major cricket tournaments with ball-by-ball live odds." },
+};
 
 export default function CricketIdPage() {
   return (
