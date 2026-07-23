@@ -47,6 +47,14 @@ export default function BlogsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 {
+                  title: "Cricket Betting Odds Explained: Format & Value",
+                  date: "July 23, 2026",
+                  desc: "Is \"5/2\" better than \"3.50\"? Understanding the math behind the odds is the first step to identifying \"value\"—the golden rule of professional betting. If you don't understand the numbers, you're not betting; you're guessing.",
+                  href: "/how-cricket-betting-odds-work/",
+                  cta: "Show More",
+                  external: false
+                },
+                {
                   title: "Comparing Cricket Betting Sites: The Essential Checklist",
                   date: "July 23, 2026",
                   desc: "With dozens of betting platforms available in 2026, choosing the right one isn't just about the welcome bonus—it's about the speed of your withdrawals, the fairness of the odds, and the ease of getting started.",
