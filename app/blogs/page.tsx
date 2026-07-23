@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import React from "react";
+import Link from "next/link";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { CONFIG } from "@/utils/config";
@@ -22,7 +23,7 @@ export default function BlogsPage() {
   return (
     <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-8 select-none">
       <div className="w-full flex flex-col lg:flex-row gap-8">
-        
+
         {/* Left Sidebar */}
         <div className="hidden lg:block lg:w-1/4">
           <Sidebar />
@@ -30,7 +31,7 @@ export default function BlogsPage() {
 
         {/* Main Content */}
         <div className="w-full lg:w-3/4 flex flex-col gap-8 text-left">
-          
+
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#9C27B0]/10 rounded-md p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">
             <h1 className="text-[#FF4081] font-black text-2xl md:text-3xl tracking-wide leading-tight">
@@ -46,24 +47,44 @@ export default function BlogsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 {
+                  title: "Comparing Cricket Betting Sites: The Essential Checklist",
+                  date: "July 23, 2026",
+                  desc: "With dozens of betting platforms available in 2026, choosing the right one isn't just about the welcome bonus—it's about the speed of your withdrawals, the fairness of the odds, and the ease of getting started.",
+                  href: "/compare-cricket-betting-sites/",
+                  cta: "Read Full Article",
+                  external: false
+                },
+                {
                   title: "How to Wager on IPL 2026 Live Sessions",
                   date: "May 24, 2026",
-                  desc: "Learn session betting strategies (6-over, 10-over runs), player outcome props, and ball-by-ball hedging systems to manage risks and lock in profits during active matches."
+                  desc: "Learn session betting strategies (6-over, 10-over runs), player outcome props, and ball-by-ball hedging systems to manage risks and lock in profits during active matches.",
+                  href: CONFIG.whatsappUrl,
+                  cta: "Read Full Article",
+                  external: true
                 },
                 {
                   title: "Understanding Betting Exchanges: Lay & Back Model",
                   date: "May 20, 2026",
-                  desc: "A beginner's guide to trading live cricket odds on Reddy Anna Tiger & Sky Exchanges. Understand what backing and laying means, and how to operate like a bookmaker."
+                  desc: "A beginner's guide to trading live cricket odds on Reddy Anna Tiger & Sky Exchanges. Understand what backing and laying means, and how to operate like a bookmaker.",
+                  href: CONFIG.whatsappUrl,
+                  cta: "Read Full Article",
+                  external: true
                 },
                 {
                   title: "How to Instantly Claim & Use Your Welcome Bonus",
                   date: "May 15, 2026",
-                  desc: "Get details on how to set up your verified ID via WhatsApp, deposit starting at just ₹100, and claim your welcome bonus package to play risk-free."
+                  desc: "Get details on how to set up your verified ID via WhatsApp, deposit starting at just ₹100, and claim your welcome bonus package to play risk-free.",
+                  href: CONFIG.whatsappUrl,
+                  cta: "Read Full Article",
+                  external: true
                 },
                 {
                   title: "Top 5 Live Casino Games to Explore in India",
                   date: "May 10, 2026",
-                  desc: "An extensive review of local live dealer card games including Teen Patti, Andar Bahar, Muflis, and Dragon Tiger. Find out about RNG fair-play mechanisms."
+                  desc: "An extensive review of local live dealer card games including Teen Patti, Andar Bahar, Muflis, and Dragon Tiger. Find out about RNG fair-play mechanisms.",
+                  href: CONFIG.whatsappUrl,
+                  cta: "Read Full Article",
+                  external: true
                 }
               ].map((blog, idx) => (
                 <div
@@ -79,14 +100,23 @@ export default function BlogsPage() {
                   <p className="text-gray-300 text-xs md:text-sm leading-relaxed">
                     {blog.desc}
                   </p>
-                  <a
-                    href={CONFIG.whatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#FF4081] hover:text-[#9C27B0] text-xs font-black self-start mt-2 border-b border-dashed border-[#FF4081]/50 hover:border-[#9C27B0]/50 pb-0.5"
-                  >
-                    Read Full Article
-                  </a>
+                  {blog.external ? (
+                    <a
+                      href={blog.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#FF4081] hover:text-[#9C27B0] text-xs font-black self-start mt-2 border-b border-dashed border-[#FF4081]/50 hover:border-[#9C27B0]/50 pb-0.5"
+                    >
+                      {blog.cta}
+                    </a>
+                  ) : (
+                    <Link
+                      href={blog.href}
+                      className="text-[#FF4081] hover:text-[#9C27B0] text-xs font-black self-start mt-2 border-b border-dashed border-[#FF4081]/50 hover:border-[#9C27B0]/50 pb-0.5"
+                    >
+                      {blog.cta}
+                    </Link>
+                  )}
                 </div>
               ))}
             </div>
